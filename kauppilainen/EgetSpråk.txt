@@ -1,0 +1,34 @@
+﻿// Felix språk
+// Mall:
+[Object{Attribute:value}(ChildObject{Attribute:value})]
+
+Start of object: STARTOBJEKT!
+End of object: SLUTOBJEKT!
+
+Start of object: STARTATTRIBUT!
+End of object: SLUTATTRIBUT!
+
+Start of child object: STARTBARNOBJEKT!
+End of child object: SLUTBARNOBJEKTT!
+
+Colon: KOLON!
+
+This is a new line separated language
+
+// Translation of object at row 3:
+STARTOBJEKT!
+Object
+STARTATTRIBUT!
+Attribute
+KOLON!
+value
+SLUTATTRIBUT!
+STARTBARNOBJEKT!
+ChildObject
+STARTATTRIBUT!
+Attribute
+KOLON!
+value
+SLUTATTRIBUT!
+SLUTBARNOBJEKT!
+SLUTOBJEKT!
