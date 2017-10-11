@@ -3,3 +3,6 @@ HTML -			3
 CSS -			3
 JavaScript -		3
 Webtech curiosity -	8
+
+
+OBJ hus ATT kvm IS 30 AND ålder IS 5 CHI OBJ sovrum ATT litet AND mysigt OBJ OBJ
