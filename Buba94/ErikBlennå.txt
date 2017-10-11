@@ -1,0 +1,15 @@
+Mitt namn är Erik Blennå och jag är 23 år gammal.
+
+Jag har tidigare jobbat som Bartender och även som IT-support för landstinget.
+
+Jag älskar att åka skidor, snöskoter, att spela pingis och att spela datorspel.
+
+Min erfarenhet på en skala mellan 1-10 av följande program är:
+
+HTML: 2
+
+JavaScript: 1
+
+CSS: 1
+
+Min webtech curiosity är på samma skala: 10
