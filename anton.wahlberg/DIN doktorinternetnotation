@@ -1,9 +1,9 @@
 Alright, vi kör. Lite förklaring i slutet
 
 link this ->
-  name is value Mechthild|<
+  name is textvalue Mechthild|<
   age is #79
-  nationality is value German|<
+  nationality is textvalue German|<
   alive is ???
 <- to Grandmother
 
@@ -18,7 +18,7 @@ link this ->
     <- to cousin2
 
       has this ->
-        name is Ylva-Li|<
+        name is textvalue Ylva-Li|<
         age is #10
       < to FirstCousin1Removed
 
