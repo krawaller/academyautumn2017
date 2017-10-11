@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>
+      <meta charset="utf-8">
+      You are reading the title of my window, which is "You are reading the
+      title of my window, which is "You are reading the title of my window,
+      which is
+    </title>
+  </head>
+  <body>
+    <div>
+      Here I write some text, which you are also reading. Nifty.
+    </div>
+    <div></div>
+    <div></div>
+    <div>
+      Couple of lines down, you wouldn't know how long it took me to get here,
+      but I'll inform you that it was almost instant for me as well
+    </div>
+  </body>
+</html>
