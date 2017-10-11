@@ -1,0 +1,10 @@
+Name: Alexander Jakobsson
+HTML: 7
+CSS: 6
+JavaScript: 8
+Webtech Curiosity: 10.
+Background:
+	I have been playing around with HTML and CSS since I was about 12 years old.
+	I used to teach my friends how to make websites, and they quickly became way better at it than me.
+	I learned JavaScript later in life.
+	I am a very curious boy.
