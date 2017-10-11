@@ -1,0 +1,10 @@
+Hej
+
+Här kommer min första uppgift, rank från 1-10 där 1 är bonde och 10 är ninja.
+HTML 3
+CSS 2
+JS 2
+Nyfikenhet 5
+
+
+
