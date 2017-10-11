@@ -1,0 +1,11 @@
+Encapsulate objects: 物 。。。。 /物
+Express object type: Namnet?
+Express attributes: 性
+Separate attribute and attribute value 是
+Express children: 有
+Separate objects and Children 和
+Attributes: Birthmonth, married/unmarried
+
+
+Example:
+物Jonas性birthmonth是1和married有物Per性birthmonth是12和married有物Christian性Birthmonth是9和unmarried/物和物Elinor性birthmonth是3和unmarried/物/物/物
