@@ -1,0 +1,15 @@
+
+Encapsulate an object		
+Object type					-OBJECT // upper case for an object and a parent 		
+Express children			-object // lower case for all children
+Attributes					Starts with @ 
+How to separate attributes	@
+Separation of attribute  	.
+and value of attribute 
+
+
+
+Types 					Grandmother, Son
+Attributes				Name, yearborn, 
+		
+-GRANDMOTHER@Name.Bibbi@Yearborn.1927-son@Name.Jerry@yearborn.1954		
