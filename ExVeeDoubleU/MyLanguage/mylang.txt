@@ -1,0 +1,17 @@
+#xxxxObjName <--- Är parentObject med id xxxx, xxxx är hexadecimalt tal (4-lång, '-' indikerar 0) som används för att identifiera objektets child/parent
+$xxxxObjName <--- Är child av #xxxx
+$zzzz#xxxxObjName <--- Child av zzzz men parent med id xxxx
+
+-> <--- start av nya attribut
+> <--- nytt attribut, fri värdetyp
+: <--- värde på attribut
+<- <--- avsluta objekt
+
+#dadaGrap->>exists:yes>isGrumpy:yes>NinjaLevel:7><-
+$dada#-dadPap->>exists:yes>likesPie:yes>piesEaten:151<-
+$dada#faffBap->>exists:yes>isGoat:no>piesOwned:0<-
+$-dadRutt->>exists:yes>greedLevel:9000+>whines:yes<-
+$faffNarp->>exists:yes>wantsPie:yes>hasPie:no<-
+$-dadSutt->>exists:doubtfull>likesGrapes:yes<-
+$faffTarp->>exists:possibly>makesPies:yes<-
+
