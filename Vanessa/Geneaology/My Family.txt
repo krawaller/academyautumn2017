@@ -1,0 +1,5 @@
+OBJ NAME Mui TYP grandparent ATT alive AND age IS 99 CHI     
+	OBJ NAME Ching TYP mother ATT lovely AND haircolor IS black CHI         
+		OBJ NAME Vanessa TYP me ATT best AND pretty IS 99.9 OBJ     
+	OBJ
+OBJ
