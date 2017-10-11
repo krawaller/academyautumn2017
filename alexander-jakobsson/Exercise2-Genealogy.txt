@@ -23,8 +23,7 @@
 4. Child objects are described by <<>, <>> angle brackets within angle brackets. Multiple children are comma-separated.
 5. Whitespace is insignificant but recommended for style. 
 6. Strings are enclosed in double-quotes, Numbers are written naked within the parentheses. 
-
-
+7. kebab-case mandatory for attributes. :this-shit-is-awesome
 
 
 
