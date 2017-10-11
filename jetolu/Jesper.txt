@@ -1,0 +1,4 @@
+HTML	4/10	(var grym för 20 år sen, sannolikt har det hänt en del sen dess)
+CSS	2/10	(kan editera befintlig, ej skapa egen)
+JS	1/10	(sett, aldrig fattat)
+Webtech	10/10	(peppad)
