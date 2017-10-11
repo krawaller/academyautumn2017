@@ -1,0 +1,54 @@
+Alright, vi kör. Lite förklaring i slutet
+
+link this ->
+  name is value Mechthild|<
+  age is #79
+  nationality is value German|<
+  alive is ???
+<- to Grandmother
+
+  has this ->
+    name is textvalue Anna-Maria|<
+    nationaliy is textvalue -DALARNA|<
+  <- to Aunt
+
+    has this ->
+    name is textvalue Björn|<
+    age is #36
+    <- to cousin2
+
+      has this ->
+        name is Ylva-Li|<
+        age is #10
+      < to FirstCousin1Removed
+
+    ^and this ->
+      name is textvalue Hilda|<
+    <- to Cousin
+
+  ^^and this ->
+    name is textvalue Curt|<
+    age is #53
+  <- to Father
+
+    has this ->
+      name is textvalue Anton|<
+      age is #25
+      favourite song is textvalue Circle - N.A.S.A remix - Be Svendsen|<
+      codingSkill is ???
+    <- to Me
+
+
+så, om det ej framgår
+
+link this ->
+  skapar första nivån av text
+  textvalue |< och # signalerar typ av värde
+  is separerar värde och attributnamn
+  ??? säger att det är ett "värdelöst" attribut
+<- to Type säger att objektet är klart
+
+has this -> signalerar första steget hierarki
+and this -> visar på flera stycken
+^ pekar på nivån över. Flera stycken visar på flera nivåer tillbaka.
+Lite krångligt :)
