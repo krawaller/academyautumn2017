@@ -1,4 +1,4 @@
-| = Visar början OCH slut
+﻿| = Visar början OCH slut
 Inte känslig för mellanslag
 < = Visar klassbarn
 <1 = Visar objektträdet
@@ -14,16 +14,6 @@ attribut = gemener, särskiljs med punkt och värdet ges efter kolon
 /
 
 
-|GUNNAR.född:x.gift:true
-	<1 MONICA.född:1960.gift:true
-		<1.1 MATHIAS.född:1984.gift:true
-			<1.1.1 EMIL.född:2013.gift:false
-		<1.2 MIKAELA.född:1993.gift:false
-			<1.2.1 NOVA.född:2017.gift:false 
-			<1.2.2 TOMMY.född:1963.gift:false
-			<1.1.2 ELLI.född
-|GUNBORG..född:1932.gift:true
-	<1 YVONNE.född:1957.gift:true
-	
+|GUNNAR.född:x.gift:true <1 MONICA.född:1960.gift:true <1.1 MATHIAS.född:1984.gift:true <1.1.1 EMIL.född:2013.gift:false <1.2 MIKAELA.född:1993.gift:false <1.2.1 NOVA.född:2017.gift:false <1.2.2 TOMMY.född:1963.gift:false <1.1.2 ELLI.född |GUNBORG..född:1932.gift:true <1 YVONNE.född:1957.gift:true
 
 |if.GUNNAR>1953:
