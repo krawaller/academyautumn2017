@@ -1,1 +1,7 @@
 ﻿Hej, mitt namn är Vanessa.
+
+HTML: 3
+CSS: 3
+JavaScript: 1
+
+Webtech curiosity: 10!!
