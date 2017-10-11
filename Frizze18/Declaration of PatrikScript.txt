@@ -1,0 +1,25 @@
+
+
+To declare objects:
+	-start with "Djurgården är det bästa laget "
+	- out in your object
+	- end with " Heja heja Djurgårn."
+
+example Djurgården är det bästa laget supporter Heja heja Djurgårn.
+
+To declare attributes:
+	-starts and ends with @
+	- seperating attributes and value use ¤
+	- use -->
+
+for example @cheering¤180-->buuing¤0@
+
+
+To list a child:
+
+	-efter the attribute end start with &%#
+	- to seperate cildren use ,
+	- end with &%#
+example &%# your mom&%#
+
+
