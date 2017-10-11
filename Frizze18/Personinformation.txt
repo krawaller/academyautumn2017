@@ -1,0 +1,10 @@
+
+Mitt namn är Patrik Fridström och jag är 25 år. 
+Har jobbat som försäljare tidigare och har ingen vettig bakgrund inom frontend.
+
+
+HTML --> 3
+CSS --> 2
+JavaScript --> 1
+Nyfikenhet --> Super crazy Ninja.
+
