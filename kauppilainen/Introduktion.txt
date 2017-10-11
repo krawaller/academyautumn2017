@@ -1,0 +1,5 @@
+Halloj! Jag heter Felix. Kommer från 5 år i Linköping där ja upptäckte programmering genom en ADA kurs andra året på Teknisk Bioloi. Då insåg jag att jag ville syssla med just programmering och hädan efter har jag jagat efter att antingen plugga data eller jobba med programmering!
+HTML: 4.
+CSS: 4.
+JS: 4 (JQuery).
+Webtech curiosity: 8.
