@@ -1,0 +1,38 @@
+
+
+<parent-object :attribute1(5) :attribute2("String") <child-object1 :attribute1(2) :attribute2("String") <child-object1-1 :attribute-boolean>>, <child-object2 :attribute5("String") :attribute6(3)>>
+
+
+
+<Person :name("Gertrud") :eye-color("blue") :hair-color("brown") :is-grand-parent
+	<Person :name("Mats") :eye-color("grey") :hair-color("black") 
+		<Person :name("Alexander") :eye-color("green") :hair-color("brown")>,
+		<Person :name("David") :eye-color("blue") :hair-color("blonde")>
+	>,
+	<Person :name("Bernt") :eye-color("blue") :hair-color("blonde")>,
+	<Person :name("Eva") :eye-color("grey") :hair-color("brown")
+		<Person :name("Christian") :eye-color("grey") :hair-color("brown")>,
+		<Person :name("Anna") :eye-color("blue") :hair-color("blue")>
+	>
+>
+
+
+1. Objects are enclosed by <> angle brackets.
+2. Type is written as the first word inside the brackets.
+3. Attributes are prefixed by : colons, post-fixed by () parentheses if they are to be passed in a value. Boolean attributes have no post-fix.
+4. Child objects are described by <<>, <>> angle brackets within angle brackets. Multiple children are comma-separated.
+5. Whitespace is insignificant but recommended for style. 
+6. Strings are enclosed in double-quotes, Numbers are written naked within the parentheses. 
+
+
+
+
+
+
+
+
+
+
+
+
+#Fin.
