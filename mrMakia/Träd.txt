@@ -1,0 +1,8 @@
+To declare an object in my language.
+
+-To mark the starts and the ends in my language we use 0
+-When we want to declare our type, we list the type like this: 0Bil0 0Buss0
+-To list our attributes we list them inside the # #, after the type.
+-And to hold attributes apart we can use: |
+
+When we mark up my language: 0Palle#old|slow#Mom#sweet|kind#Sister#evil|mean#0 
