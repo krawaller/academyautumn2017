@@ -1,0 +1,33 @@
+Encapsulation + type 
+
+Encapsulation and type only needs to start, however you feel like starting it, aslong as its all caps, because everyone loves ALLCAPS!!one!
+Example:
+
+GOAT:
+
+Attributes
+In KrutCode, there is just three different kinds of attributes(plus one super important one that will explode your code if you forget it).
+In the following example, we decide that the type GET, is not a cat(boolean) mostly because its a goat, we decide that our goats age is 63(number), and that its name is Glennart(text). 
+Important here is to prefix the type with what the attribute is meant to represent, and there are a couple of reserved words that you can use, or you can make up your own.
+
+Reserved words:
+name
+
+Name is really the only important word in attributes, because it christens the type to that name.
+As you can see the three different kinds of attributes we get to play with is boolean, numbers and texts. Name is the only attribute that is needed in every object. The declaration of attributes ends with ' and every attribute is separated with ,
+Example
+
+GOAT:cat)boolean(false, age)number(63, name)name(Glennart, description)text(Is very good at being a goat,'
+
+
+Children
+When we want to declare parents, we first need an actual parent, since making children in test tubes is kind of a moral grey area when it comes to modern science.
+Its real easy though. Just start with making on object that will be a parent, and then prefix the child with the parents name attribute, followed by a | to divide the parent and the child. Also, no caps here plz. Grandchildren will always inherit everything. No exceptions.
+
+Example
+
+GOAT:cat)boolean(false, age)number(96, name)name(Maj-Björn, description)text(Loves hard candy and emmerdale farm,'
+
+maj-björn|GOAT:cat)boolean(false, age)number(63, name)name(Glennart, description)text(Is very good at being a goat,'
+
+
