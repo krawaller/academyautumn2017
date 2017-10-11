@@ -1,0 +1,12 @@
+
+
+Varje objekt initieras med >
+En beskrivning av ett attribut inleds med @
+En beskrivning av ett värde inleds med -
+Ett nytt child-object inleds med |
+Terminering av ett objekt upp till föregående nod görs med ;
+Termineras rootnoden kan vi påbörja ett nytt objekt
+
+>Cat@name-grandCat@color-black|>Cat@name-motherCat@color-black&white|>Cat@name-cuteCatKitten1@color-white;>Cat@name-cuteCatKitten2@color-black;;;
+
+//Made by Thommy, Jesper, Hasse och Anna
