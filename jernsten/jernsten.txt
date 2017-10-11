@@ -1,1 +1,5 @@
 Hej! Jag heter Kemal och är normalt sett väldigt hungrig från kl 11 till 12.
+HTML -			3
+CSS -			3
+JavaScript -		3
+Webtech curiosity -	8
