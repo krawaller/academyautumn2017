@@ -1,0 +1,17 @@
+
+WizardrY (programmeringsspråk)
+
+Genom att skriva objektets typ och dess attribut på en och samma rad 
+slipper vi använda något som omsluter objektet. 
+Använd whitespace mellan objektets typ för att det ska bli tydligare
+och använd sedan ':' för att skapa attribut. Mellan varje attribut och värde
+har du en '.'. Efter värdet ett ';' för att kunna lägen till ett nytt attribut.
+För att påvisa ett barn så tar du en ny rad och en intendering.
+
+
+Exempel:
+
+Wizard att:Looks.56; Strength.67; Skill.99; 
+	Junior wizard att:Looks.88; Strength.35; Skill.19;
+		Junior wizard att:Looks.99; Strength.10; Skill.4;
+	Minior wizard att:Looks.26; Strength.43; Skill.24;
