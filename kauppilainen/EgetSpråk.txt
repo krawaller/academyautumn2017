@@ -12,6 +12,7 @@ Start of child object: STARTBARNOBJEKT!
 End of child object: SLUTBARNOBJEKTT!
 
 Colon: KOLON!
+Comma: SEPARERA!
 
 Object names should start with an upper case and then alternating upper and lower case
 Attributes should end with upper case letter while all other letters are lower case
