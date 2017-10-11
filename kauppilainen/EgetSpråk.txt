@@ -1,6 +1,6 @@
 ﻿// Felix språk
 // Mall:
-[Object{Attribute:value}(ChildObject{Attribute:value})]
+[Object{Attribute : value}(ChildObject{Attribute : value})]
 
 Start of object: STARTOBJEKT!
 End of object: SLUTOBJEKT!
@@ -13,22 +13,28 @@ End of child object: SLUTBARNOBJEKTT!
 
 Colon: KOLON!
 
-This is a new line separated language
+Object names should start with an upper case and then alternating upper and lower case
+Attributes should end with upper case letter while all other letters are lower case
+Values are middle letter upper case while all other letters are small. If there are no single middle letter then the two in the middle are both upper case
+Child objects are all lower case letters as children have a hard time differentiating between lower and upper
+For semantic reasons whitespace means nothing, Jon Snow.
 
-// Translation of object at row 3:
+This is a "new line" separated language
+
+// Translation of code at row 3:
 STARTOBJEKT!
-Object
+ObJeCt
 STARTATTRIBUT!
-Attribute
+attributE
 KOLON!
-value
+vaLue
 SLUTATTRIBUT!
 STARTBARNOBJEKT!
-ChildObject
+childobject
 STARTATTRIBUT!
-Attribute
+attributE
 KOLON!
-value
+vaLue
 SLUTATTRIBUT!
 SLUTBARNOBJEKT!
 SLUTOBJEKT!
