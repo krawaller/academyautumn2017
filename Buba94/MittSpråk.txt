@@ -1,0 +1,17 @@
+Encapsulate objects with / /
+
+Express object type with § §
+
+Express attributes with A: separate attributes with ,
+
+add * to insert value and end attribute with ;
+
+Express children with < >
+
+To add string  put "" around text
+
+Boolean values are given by B:
+
+Example:
+
+/§Fruitbasket A:space*10,price*15;§/</§banana A:shiny*2;§//§grape A:shiny*6;§/>
