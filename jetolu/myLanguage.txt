@@ -1,0 +1,16 @@
+Grandpa@age:100/Mother@age:70/Sister@age:50,grayHair:true&Brother@age:40,bald:true&Me@awesome:true\Uncle@smoking:true/Cousin@age:45,chef:true|
+
+Object starts with Capital letter
+Attributes starts with @ and small letters
+Separate attribute and value with : 
+Kid object starts with / 
+Sibling objects separated with &
+Climb through object levels with \ 
+Object three stops with |
+
+		Grandpa
+	___________|______
+	|		  |
+   ____Mother___	Uncle
+  |	  |     |     	  |
+Sister Brother  Me	Cousin
