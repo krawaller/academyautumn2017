@@ -1,0 +1,19 @@
+﻿| = Visar början OCH slut
+Inte känslig för mellanslag
+< = Visar klassbarn
+<1 = Visar objektträdet
+OBJEKT = Versaler
+attribut = gemener, särskiljs med punkt och värdet ges efter kolon
+
+|KORG.räfflig:true.färg:brun, ÄPPLE.färg:röd, BANAN.bjöd:true|KORG2, PERSIKA.färg:röd
+
+\
+|if.String:brabab
+|String=brabab
+
+/
+
+
+|GUNNAR.född:x.gift:true <1 MONICA.född:1960.gift:true <1.1 MATHIAS.född:1984.gift:true <1.1.1 EMIL.född:2013.gift:false <1.2 MIKAELA.född:1993.gift:false <1.2.1 NOVA.född:2017.gift:false <1.2.2 TOMMY.född:1963.gift:false <1.1.2 ELLI.född |GUNBORG..född:1932.gift:true <1 YVONNE.född:1957.gift:true
+
+|if.GUNNAR>1953:

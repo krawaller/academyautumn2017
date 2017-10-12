@@ -1,0 +1,8 @@
+Previous experience:
+
+HTML & CSS: Upper secondary school course 'Webbutveckling 1', Attempt at modifying website template @ maxhellqvist.se/maxhellqvist.com.
+
+C#: Game scripting in Unity3D.
+JavaScript: Very basic knowledge gained when trying to find game scripting fixes, that I then converted to c#.
+
+What impression has javascript had on me? var, var, var, var, var, functions don't function.

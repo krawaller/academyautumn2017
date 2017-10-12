@@ -1,0 +1,6 @@
+Jimmy Bergvall
+3	Html 
+3	Css
+0	JS
+10	Webtech curiosity 
+

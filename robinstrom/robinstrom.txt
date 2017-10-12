@@ -1,0 +1,15 @@
+Namn: 
+Robin Ström
+
+Kort bakgrund:
+Uppväxt och bor fortfarande i Haninge, som är en förort söder om söder.
+Prövat universitetsutbildningar tidigare, men har alltid varit mer lagd för det praktiska.
+Tycker om legendariska saker som skotsk whisky, öl, fotboll, resor och äventyr.
+
+Web:
+Html 6/10
+CSS 4/10
+JavaScript 2/10
+WebCuriosity 10/10 (ctrl c + ctrl v, vid legendariska saker jag gillar)
+
+

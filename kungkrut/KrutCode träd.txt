@@ -1,0 +1,13 @@
+SUPER IMPORTANT EXAMPLE OF THE SICKEST LANGUAGE EVER(with a very wierd family of animals)
+
+
+GOAT:patriarchoffamily)boolean(true, age)number(1337, name)name(Borknagar, description)text(Secretly lover foamparties,'
+
+borknagar|GOAT:goodboy)boolean(false, age)number(999, name)name(Sture, description)text(Black sheep of the family,'
+
+borknagar|DOG:goodboy)boolean(true, age)number(1123, name)name(Månstråle von Hundenburg, description)text(Not really a blueblood,'
+
+sture|KITTYCAT:lazycat)boolean(true, age)number(800, name)name(Gert, description)text(Is actually the first ever vegan cat,'
+
+månstrålevonhundenburg|SEAGULL:loveseatingtrash)boolean(true, age)number(16, name)name(SuperMiranda, description)text(Feels like a racoon born in a seagulls body,'
+

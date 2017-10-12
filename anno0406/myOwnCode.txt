@@ -1,0 +1,13 @@
+divider: start: $ end: £
+object: skrivs med Versaler - EUROPE
+attribut: skrivs med Versal på slutet - lenghT eller uglY
+attributen skrivs efter objektet med "- tecken som start och slut - "lenghT"
+attributen får värde genom - tecken - lenghT-890000
+attributen skiljs åt med mellanslag - lenghT-890000 uglY
+
+$ITALY"lenghT-890000 uglY coloR-green"£ 
+
+children listas inom <>-tecken - <FRANCE>
+children separeras med = tecken - <ITALY-FRANCE>
+
+$EUROPE"pricE-15"<$ITALY"lenghT-890000 uglY coloR-green"£=$FRANCE"lenghT-870 prettY coloR-red"£>£ 

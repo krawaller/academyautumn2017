@@ -1,0 +1,31 @@
+hello inga
+is sign=skorpion
+has syskon=3
+
+hello larserik
+is sign=oxe
+has syskon=0
+
+hello marie
+is sign=jungfru
+has syskon=3
+goodbye marie
+
+hello hanna
+is sign=fisk
+has syskon=3
+goodbye hanna
+
+hello andre
+is sign=tvilling
+has syskon=3
+goodbye andre
+
+hello anton
+is sign=skytte
+has syskon=3
+goodbye anton
+
+goodbye larserik
+
+goodbye inga

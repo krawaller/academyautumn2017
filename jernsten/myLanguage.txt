@@ -1,0 +1,5 @@
+OBJ NAME Serife TYP grandparent ATT alive AND age IS 90 CHI
+	OBJ NAME Nuran TYP mother ATT nice AND hometown IS Göteborg CHI
+		OBJ NAME Kemal TYP me ATT cool AND sexy IS 99.9 OBJ
+	OBJ
+OBJ
