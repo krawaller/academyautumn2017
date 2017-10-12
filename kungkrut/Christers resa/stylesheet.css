@@ -1,0 +1,38 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+strong {
+    size: 110%;
+}
+
+li a {
+   outline: none;
+   text-decoration: none;
+}
+
+li a:link {
+    color: lime;
+}
+
+li a:visited{
+    color: green;
+}
+
+li a:hover{
+    color: black;
+box-shadow: 0 0 15px chocolate;
+}
+
+h1 + img {
+    border-radius: 12px;
+    box-shadow:  0 0 100px lime;
+}
+
+
+
