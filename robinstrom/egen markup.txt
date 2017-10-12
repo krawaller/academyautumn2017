@@ -1,5 +1,5 @@
 
-WizardrY (programmeringsspråk)
+WizardrY 
 
 Genom att skriva objektets typ och dess attribut på en och samma rad 
 slipper vi använda något som omsluter objektet. 
