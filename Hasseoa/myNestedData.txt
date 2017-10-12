@@ -1,0 +1,3 @@
+HUMAN.name=grandma.age=70>(HUMAN.name=mom.age= 35)>(HUMAN.name=me.age=10&HUMAN.name=sister.age=15>(HUMAN.name=nephew.Age=1));
+
+
