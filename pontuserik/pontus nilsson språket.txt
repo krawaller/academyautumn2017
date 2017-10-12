@@ -1,0 +1,16 @@
+Pontus Nilsson språket:
+
+Divider to encode an object
+P
+starts with P and ends with P
+
+Type (i mitt språk kan vi bara använda siffror), typ sätts mellan två P, tex:
+P1P P2P P3P osv.....
+
+attributes (mer siffror efter första siffran=, markeras med N.
+
+så då kan det tex se ut så här:
+P1N12:13:14NP
+P2N22:23:24NP
+
+: används för att separera attributen.
