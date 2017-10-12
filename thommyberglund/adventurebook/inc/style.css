@@ -16,12 +16,13 @@
 h1 {font-family: Raleway,sans-serif; text-align: center;}
 ul li {font-family: Raleway,sans-serif;list-style-type: none;}
 img {max-width: 400px; max-height: 200px;}
-p {font-family: Raleway,sans-serif;}
+p {font-family: Raleway,sans-serif;text-align: left;}
 a {text-decoration: none; text-decoration-color: blue;}
 a:visited {text-decoration-color: blue;}
 a:hover {text-decoration-line: underline;}
 section { text-align: center;width: 400px;margin-left: auto;margin-right: auto;}
 .mysection {width: 400px;margin-left: auto;margin-right: auto;}
+.links { text-align: left;width: 150px;margin-left: auto;margin-right: auto;}
 
 p:first-child:first-letter {
   color: #903;
