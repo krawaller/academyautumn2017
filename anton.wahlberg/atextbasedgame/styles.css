@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: title;
+  src:url();
+}
+
+body {
+  background-color: #003300;
+}
+
+header h1{
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: wheat;
+  font-family: title;
+}
+
+.image{
+  padding-top: 3em;
+}
+
+main{
+  color: wheat;
+  background-color: black;
+  border-radius: 1em;
+  text-align: center;
+}
+
+main p{
+  -webkit-margin-before: 0.5em;
+}
+
+.navigation{
+  text-align: center;
+}
