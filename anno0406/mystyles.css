@@ -1,0 +1,11 @@
+.enjoy-css {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 76px/1 "abril-fatface", Helvetica, sans-serif;
+    color: #e0c3cd;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
