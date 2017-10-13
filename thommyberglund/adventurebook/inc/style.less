@@ -43,8 +43,27 @@ img:hover {
   transform: rotate(45deg);
   transition: transform 1s ease;
 }
-@keyframes fireball { from { margin-left: -20%; } to { margin-left: 100%; }  }
 
-.animationexample  {
-  animation: 4s linear 0s infinite alternate fireball;
+ @keyframes spin {
+     from {transform:rotate(0deg);}
+     to {transform:rotate(360deg);}
+ }
+
+ @keyframes reversespin {
+     from {transform:rotate(360deg);}
+     to {transform:rotate(0deg);}
+ }
+
+.spin {
+  animation: 4s linear 0s infinite spin;
 }
+.fastspin {
+  animation: 2s linear 0s infinite spin;
+}
+
+.reversespin {
+  animation: 4s linear 0s infinite reversespin;
+}
+#squarered { width: 100px; height: 100px; background: red; margin-left:auto; margin-right:auto;position: absolute; left:430px;top:540px;}
+#squaregreen { width: 100px; height: 100px; background: green; margin-left:auto; margin-right:auto;float:inherit;position: absolute; left:430px;top:540px;}
+#squareyellow { width: 100px; height: 100px; background: blue; margin-left:auto; margin-right:auto;float:inherit;position: absolute; left:430px;top:540px;}
