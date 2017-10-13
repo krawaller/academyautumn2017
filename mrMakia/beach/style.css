@@ -1,0 +1,23 @@
+body {
+  background-color: #f3e8df;
+  text-align: center;
+}
+h1 {
+  color: gray;
+  font-family: monospace;
+  font-size: 75px;
+}
+h2 {
+  color: black;
+  font-family: monospace;
+  font-size: 30px;
+}
+img {
+  height: 550px;
+  width: 700px;
+  border-radius: 20px;
+}
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
