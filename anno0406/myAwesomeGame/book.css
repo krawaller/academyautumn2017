@@ -1,19 +1,62 @@
-.enjoy-css {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    border: none;
-    font: normal 76px/1 "abril-fatface", Helvetica, sans-serif;
-    color: #5a2437;
-    text-align: center;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-  }
-
-  .paddingblock {
-    padding-top: 10px;
-  }
-
-  .imgblock {
-    padding-top: 50px;
-  }
+body {
+  background-image: url(https://wallpaperstock.net/wood-floor-wallpapers_6855_1280x960.jpg);
+}
+h1 {
+  color: #b14b4b;
+  letter-spacing: 2px;
+  font-family: 'Modak', cursive;
+}
+h2 {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 10px;
+}
+p {
+  color: white;
+  letter-spacing: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+a {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.paddingblock {
+  text-align: center;
+  padding-top: 10px;
+}
+.textblock {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 480px;
+  height: 230px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  padding: 10px;
+  background-color: #b14b4b;
+  display: block;
+}
+#imgblock {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+#paddingtop {
+  width: 500px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b29f00;
+}
+#paddingbottom {
+  width: 500px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #D2F9FF;
+}
