@@ -14,7 +14,20 @@ header {
 	font-weight: 700;
 }
 
-h1, p, a {
+@keyframes bounceIn {
+	0% {
+	transform: scale(0.1);
+	opacity: 0;
+	}
+
+	100% {
+	transform: scale(1)
+	}
+}
+
+
+
+h1, h2, p, a {
 	color: white;
 }
 
@@ -23,6 +36,8 @@ p {
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 20px;
+	animation-duration: 2s;
+	animation-name: bounceIn;
 }
 
 img {
