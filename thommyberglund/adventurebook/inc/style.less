@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@basecolor: #903;
+/* End of CSS reset */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v12/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v12/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+h1 {font-family: Raleway,sans-serif; text-align: center;font-size: 4em;margin-top: 10px;}
+h1:before { content: "♜"};
+h1:after { content: "♜"};
+ul li {font-family: Raleway,sans-serif;list-style-type: none;}
+img {max-width: 400px; max-height: 200px;}
+p {font-family: Raleway,sans-serif;text-align: left;}
+a {text-decoration: none; text-decoration-color: blue;}
+a:visited {text-decoration-color: blue;}
+a:hover {text-decoration-line: underline;}
+section { text-align: center;width: 400px;margin-left: auto;margin-right: auto;}
+header > section { text-align: center;width: 100px;height:100px;margin-left: auto;margin-right: auto;margin-top: 50px;margin-bottom: 50px;}
+ul { margin-top: 20px;text-align: left;width: 150px;margin-left: auto;margin-right: auto;}
+
+
+p:first-child:first-letter {
+  color: (@basecolor);
+  float:left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-left: 3px;
+}
+
+img:hover {
+  transform: rotate(45deg);
+  transition: transform 1s ease;
+}
+
+ @keyframes spin {
+     from {transform:rotate(0deg);}
+     to {transform:rotate(360deg);}
+ }
+
+ @keyframes reversespin {
+     from {transform:rotate(360deg);}
+     to {transform:rotate(0deg);}
+ }
+
+section > div ~ div ~ div { width: 100px; height: 100px; background: red; margin-left:auto; margin-right:auto;float:left;position:fixed; animation: 2s linear 0s infinite spin;}
+section > div ~ div  { width: 100px; height: 100px; background: green; margin-left:auto; margin-right:auto;float:left;position:fixed; animation: 4s linear 0s infinite spin;}
+section > div  { width: 100px; height: 100px; background: blue; margin-left:auto; margin-right:auto;float:left;position:fixed;animation: 4s linear 0s infinite reversespin;}
