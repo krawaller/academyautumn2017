@@ -8,7 +8,13 @@ h1 {
     color: rgb(177, 75, 75);
     letter-spacing: 2px;
     font-family: 'Modak', cursive;
-   
+    transition: color 1s linear, letter-spacing 0.5s linear;
+}
+
+h1:hover {
+  letter-spacing: 10px;
+  color: white;
+
 }
 
 h2 {
@@ -26,7 +32,22 @@ p {
 a {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    padding: 13px;  
+    border: 3px solid rgb(211, 130, 130);
+    text-decoration: none;
+    margin: 16px;
+    transition: background-color 0.3s linear, color 0.3s linear;
 
+}
+
+a:hover {
+  color: rgb(199, 74, 74);
+  background-color: white;
+}
+
+.choice {
+  margin-top: 40px;
 }
 
   .paddingblock {
@@ -38,12 +59,12 @@ a {
     margin-left:auto;
     margin-right:auto;
     margin-top: 10px;
-    width: 480px;
+    width: 440px;
     height: 230px;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 30px;
-    padding: 10px;
+    padding: 30px;
     background-color: rgb(177, 75, 75);
     display: block;
 
