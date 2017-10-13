@@ -11,6 +11,11 @@ div {
   box-shadow: 0 0 40px @vit;
 }
 
+.headertext:hover {
+  color: rgba(46, 248, 46, 0.795);
+  transform: scale(1,1);
+}
+
 a {
   color: cyan;
   text-shadow: 0 0 30px @vit;
@@ -18,10 +23,12 @@ a {
 }
 
 .headertext {
+  transform: scale(-1,1);  
   font-size: 80px;
   text-shadow: 0 0 100px green;
   text-align: center;
   color: @vit;
+  transition: color 2s ease, transform 2s ease;
 }
 
 .linktowiki {
@@ -31,12 +38,18 @@ a {
 }
 
 .paragraf {
+  transform: scale(-1,1);
   margin-left: 15px;
   margin-right: 15px;
   text-shadow: 0 0 15px @vit;
   color: @vit;
   font-size: 30px;
   font-family: 'Nosifer', cursive;
+  transition: transform 2s ease;
+}
+
+.paragraf:hover {
+  transform: scale(1,1);
 }
 
 img {
