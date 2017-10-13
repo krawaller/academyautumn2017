@@ -1,0 +1,26 @@
+body {
+  margin: auto;
+  position: relative;
+  max-width: fit-content;
+  font-family: 'Niconne', cursive;
+}
+img {
+  max-width: 500px;
+  max-height: 500px;
+}
+h1 {
+  font-size: 40px;
+  max-width: -webkit-fill-available;
+  color: red;
+}
+p {
+  width: 500px;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
