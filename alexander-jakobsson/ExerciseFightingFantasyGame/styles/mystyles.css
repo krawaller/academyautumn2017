@@ -1,0 +1,97 @@
+body {
+  display: block;
+  font-weight: bold;
+  color: #e67a7a;
+  background-image: url(https://i2.wp.com/doblu.com/wp-content/uploads/2011/03/sharktopus345.jpg);
+  margin: auto;
+}
+header {
+  font-family: "Georgia";
+  color: #000000;
+  text-align: center;
+  background-color: rgba(97, 25, 97, 0);
+  padding: 20px;
+}
+h1 {
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgba(96, 9, 202, 0.295);
+  text-shadow: 0 0 3px #ca0a0a;
+  padding: 10px;
+  transition: color 1s ease;
+}
+h1:hover {
+  color: gold;
+  text-shadow: 2 5 5px red;
+}
+main {
+  display: block;
+  margin: auto;
+  font-family: "Georgia";
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+main img {
+  display: block;
+  margin: auto;
+  width: 600;
+  height: 400;
+  transition: opacity 1s ease;
+}
+main img:hover {
+  opacity: 0;
+}
+nav {
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  border: 20px;
+}
+nav img {
+  width: 100;
+  height: 120;
+  padding: 30px;
+  opacity: 0.2;
+  transition: transform 2s ease;
+}
+nav img:hover {
+  transform: rotate(360deg);
+}
+#MainLink {
+  background-color: black;
+  transition: hover 1s ease;
+}
+#MainLink:hover {
+  color: gold;
+  text-shadow: 0 0 3px red;
+}
+div {
+  margin: auto;
+}
+#my-box {
+  margin: auto;
+}
+@keyframes changecolor {
+  0% {
+    color: gold;
+  }
+  25% {
+    color: #e67a7a;
+  }
+  50% {
+    color: gold;
+  }
+  75% {
+    color: #e67a7a;
+  }
+  100% {
+    color: gold;
+  }
+}
+p {
+  transition: changecolor 1s ease;
+  animation-name: changecolor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
