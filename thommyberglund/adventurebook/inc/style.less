@@ -37,3 +37,14 @@ p:first-child:first-letter {
   padding-top: 4px;
   padding-left: 3px;
 }
+#fireballsize {height: 100px; width:100px;}
+
+img:hover {
+  transform: rotate(45deg);
+  transition: transform 1s ease;
+}
+@keyframes fireball { from { margin-left: -20%; } to { margin-left: 100%; }  }
+
+.animationexample  {
+  animation: 4s linear 0s infinite alternate fireball;
+}
