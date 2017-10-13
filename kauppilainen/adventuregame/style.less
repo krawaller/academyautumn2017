@@ -1,0 +1,68 @@
+@basecolor: black;
+
+body {
+  background-color: @basecolor;
+}
+
+.wrap {
+  min-width: 1024px;
+}
+
+/* ADD TYPOGRAPHY (FONT) SETTINGS*/
+
+header {
+  background-color: black;
+}
+
+/*main > h4::first-letter{  Gör first letter stort och sagomässigt
+  font-family:
+}*/
+
+h1 {
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 72pt;
+  text-shadow: 0 0 5px green;
+}
+
+main {
+  background-color: black;
+}
+
+h4 {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 20pt;
+  text-shadow: 0 0 3px green;
+  &.deathText{
+    text-shadow: 0 0 3px #ff5a5a;
+  }
+}
+
+main > img {
+  width: 500px;
+  display: block;
+  margin: 0 auto; /* 0 = up, down. Auto = left, right */
+}
+
+main > ul {
+  display: block;
+  list-style: none;
+  position: relative;
+  float: left;
+
+  left: 50%;
+
+  text-shadow: 0 0 3px black;
+}
+
+main > ul > li {
+  display: block;
+  position: relative;
+  right: 50%;
+
+  /*text-align: left;
+  padding-left: 30%;*/
+  /*padding-right: 30%;*/
+
+}
