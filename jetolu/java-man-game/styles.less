@@ -1,0 +1,137 @@
+@base: #ac4444;
+
+body {
+    background-color: @base;
+    font-family: 'Allerta Stencil';
+    font-size: '12px';
+    text-align: center;
+}
+article {
+    text-align: justify;
+}
+img {
+    max-width: 100px;
+    max-height:  100px;
+}
+#wrap { 
+	width: 700px; 
+	margin: auto; 
+}
+li {
+    list-style-type: none;
+    padding: 20px
+}
+ul:hover {
+    color: white;
+}
+.firstcharacter {
+    color: rgb(43, 134, 199);
+    float: left;
+    font-family: 'Allerta Stencil';
+    font-size: 75px;
+    line-height: 50px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+a {
+    color: rgb(43, 134, 199);
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-shadow: #ffffff;
+    transition: color 1s linear;
+
+}
+h1:hover {
+    color: #2b86c7;
+    text-shadow: #ffffff;
+    transition: color 1s linear;
+}
+h1 {
+    height: 50px;
+}
+h2 {
+height: 300px;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(3000);
+        transition: 100s linear;
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
