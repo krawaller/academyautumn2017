@@ -1,0 +1,71 @@
+@bgcolor: #b2b2c3;
+@biggerfontsize: 20px;
+
+.uniform-text-shadow(@len, @c) when (isnumber(@len)) and (iscolor(@c)) {
+  text-shadow: @len @len @len @c
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url('https://fonts.googleapis.com/css?family=Pacifico');
+}
+
+body {
+  background-color: @bgcolor;
+  font-family: fantasy;
+}
+
+h1 {
+  text-align: center;
+  color: pink;
+  text-transform: uppercase;
+  font-family: 'Pacifico', cursive;
+
+  &+p {
+    text-align: center;
+    font-size: @biggerfontsize;
+    opacity: 0.7;
+    .uniform-text-shadow(5px, yellow)
+  }
+}
+
+hr {
+  height: 5px;
+  background-color: gray;
+}
+
+img {
+  max-width: 400px;
+  outline: yellow dotted 8px;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  &:hover {
+    outline: yellow dotted 20px;
+  }
+}
+
+ul {
+  padding-left: 2rem;
+  font-size: @biggerfontsize;
+  list-style-type: none;
+
+  li {
+    padding-left: 2rem;
+    background-image: url(http://www.clker.com/cliparts/2/f/a/d/1227974557455141889pitr_Candy_icon.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  }
+}
+
+a:hover {
+  background-color: blue;
+}
+
+main > p:first-child:first-letter {
+  font-size: 50px;
+}
