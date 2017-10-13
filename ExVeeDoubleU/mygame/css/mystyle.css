@@ -6,7 +6,12 @@ main {
   min-width: 60%;
   max-width: 60%;
   height: 400px;
-
+}
+main p {
+  font-family: "Comic Sans MS", "Comic Sans";
+  text-align: center;
+  margin: 5px;
+  font-size: 80%;
 }
 body {
   background-image: url('https://img.itch.zone/aW1hZ2UvMTI1NzQvNDA2MjcuanBn/original/WVb7cS.jpg');
@@ -15,40 +20,31 @@ body {
   color: white;
   text-shadow: 1px 1px 1px red;
 }
-main p {
-  font-family: "Comic Sans MS", "Comic Sans";
-  text-align: center;
-  margin: 5px;
-  font-size: 80%;
-}
-
 img {
-    display: block;
+  display: block;
   max-width: 60%;
   max-height: 60%;
   margin: 0 auto;
   border: 2px solid black;
 }
-#choice{
-
-    max-width: 80%;
-    margin: 0 auto;
+#choice {
+  max-width: 80%;
+  margin: 0 auto;
 }
 ul {
-    padding: 0px;
+  padding: 0px;
   list-style-type: none;
   margin: 0 auto;
 }
-
-header{
-    text-align: center;
-    margin: 2%;   
+header {
+  text-align: center;
+  margin: 2%;
 }
-header > h1{
-    display: inline;
-    padding: 1%;
-    box-shadow: inset 10px 10px 5px #353535;
-    background-color: rgba(255, 255, 255, 0.219); 
+header > h1 {
+  display: inline;
+  padding: 1%;
+  box-shadow: inset 10px 10px 5px #353535;
+  background-color: rgba(255, 255, 255, 0.219);
 }
 button {
   height: 100px;
@@ -60,15 +56,13 @@ button {
   display: block;
   box-shadow: 10px 10px 5px #353535;
   font-size: 2vw;
-  background-color: rgba(255, 255, 255, 0.219); 
+  background-color: rgba(255, 255, 255, 0.219);
   border-color: rgba(255, 255, 255, 0.219);
   margin-top: 1%;
-  
-
 }
-ul li:first-child button{
-    box-shadow: 10px 0px 5px #353535;
+ul li:first-child button {
+  box-shadow: 10px 0px 5px #353535;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }

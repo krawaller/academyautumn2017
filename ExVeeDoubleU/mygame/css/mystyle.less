@@ -1,0 +1,77 @@
+@trans:rgba(255, 255, 255, 0.219);
+@shadow:#353535;
+@sans:"Comic Sans MS", "Comic Sans";
+main {
+  background-color: @trans;
+  margin: 1% auto;
+  box-shadow: 10px 10px 5px @shadow;
+  padding: 1%;
+  min-width: 60%;
+  max-width: 60%;
+  height: 400px;
+  p {
+    font-family: @sans;
+    text-align: center;
+    margin: 5px;
+    font-size: 80%;
+  }
+
+}
+body {
+  background-image: url('https://img.itch.zone/aW1hZ2UvMTI1NzQvNDA2MjcuanBn/original/WVb7cS.jpg');
+  text-align: center;
+  font-family: @sans;
+  color: white;
+  text-shadow: 1px 1px 1px red;
+}
+
+img {
+    display: block;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+#choice{
+
+    max-width: 80%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    margin: 2%;   
+}
+header > h1{
+    display: inline;
+    padding: 1%;
+    box-shadow: inset 10px 10px 5px @shadow;
+    background-color: @trans; 
+}
+button {
+  height: 100px;
+  width: 100%;
+  font-family: @sans;
+  color: white;
+  text-shadow: 1px 1px 1px red;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 10px 10px 5px @shadow;
+  font-size: 2vw;
+  background-color: @trans; 
+  border-color: @trans;
+  margin-top: 1%;
+  
+
+}
+ul li:first-child button{
+    box-shadow: 10px 0px 5px @shadow;
+}
+a{
+    text-decoration: none;
+}
