@@ -17,6 +17,12 @@ h1 {
   font-family: Raleway, sans-serif;
   text-align: center;
 }
+h1:before {
+  content: "♜";
+}
+h1:after {
+  content: "♜";
+}
 ul li {
   font-family: Raleway, sans-serif;
   list-style-type: none;
