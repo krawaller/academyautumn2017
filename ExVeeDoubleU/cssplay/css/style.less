@@ -1,0 +1,58 @@
+@shadowin: inset -10px 10px 5px @shadow;
+@shadow: rgba(0, 0, 0, 0.822);
+@transShade:rgba(0, 0, 0, 0.200);
+body{
+    background-image: url('https://www.walldevil.com/wallpapers/a78/4228-texture.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:100vw;
+    height:100vh;
+    margin: 0;
+}
+header, footer{
+    display:flex;
+    width: 98vw;
+    height: 5vh;
+    box-shadow: @shadowin;
+    margin: 0 auto;
+    background-color: @transShade;
+}
+main{
+    display:flex;
+    width: 98vw;
+    height: 80vh;
+    padding: 1%;
+    justify-content: space-around;
+}
+#mid, #left, #right{
+    box-shadow: inset 0px 10px 5px @shadow;
+    background-color: @transShade;
+    height: 100%;
+    width:30%;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hole{
+    background-color: @transShade;
+    box-shadow: inset 0px 10px 5px @shadow;
+    width:90%;
+    height:90%; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#left #hole{
+    background-color: @transShade;
+    box-shadow: inset -10px 10px 5px @shadow;
+    width:90%;
+    height:90%; 
+}
+#right #hole{
+    background-color: @transShade;
+    box-shadow: inset 10px 10px 5px @shadow;
+    width:90%;
+    height:90%; 
+}
