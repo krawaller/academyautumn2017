@@ -1,56 +1,47 @@
 body {
+  display: flex;
+  justify-content: center;
   background-color: black;
 }
 .wrap {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-width: 700px;
   max-width: 700px;
 }
 /* ADD TYPOGRAPHY (FONT) SETTINGS*/
 header {
+  display: flex;
+  justify-content: center;
   background-color: black;
 }
 /*main > h4::first-letter{  Gör first letter stort och sagomässigt
   font-family:
 }*/
-h1 {
+header > h1 {
+  animation-name: pulsatingGlow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
   margin: 0 0 10px 0;
-  text-align: center;
   font-size: 72pt;
   text-shadow: 0 0 5px green;
 }
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
 }
 main > img {
-  width: 500px;
-  display: block;
-  margin: 0 auto;
-  /* 0 = up, down. Auto = left, right */
-}
-main > h2 {
-  color: white;
-  font-size: 72pt;
-}
-main > ul {
-  margin: 0 auto 0 auto;
-  display: block;
-  list-style: none;
-  position: relative;
-  float: left;
-  left: 50%;
-  text-shadow: 0 0 3px black;
+  width: 400px;
 }
 main > ul > li {
-  display: block;
-  position: relative;
-  right: 50%;
-  padding: 5px;
-  /*text-align: left;
-      padding-left: 30%;*/
-  /*padding-right: 30%;*/
+  display: flex;
+  justify-content: center;
 }
 main > ul > li > a {
+  display: flex;
   font-size: 14pt;
   color: black;
   text-shadow: 0 0 4px red;
@@ -68,13 +59,67 @@ h4 {
   text-shadow: 0 0 3px green;
 }
 h4.deathText {
+  animation-name: fadeIn, pulsatingGlow;
+  animation-delay: 8s, 9.5s;
+  animation-duration: 2s, 1s;
+  animation-fill-mode: both, forwards;
+  animation-iteration-count: 1 ,infinite;
   text-shadow: 0 0 3px #ff5a5a;
 }
 .monsterImg {
   animation-name: monsterZoom;
-  animation-duration: 10s;
+  animation-duration: 7s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+}
+#flexColumns {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: #c9c9c9;
+}
+#flexLeftCol {
+  padding: 5px 10px;
+  width: 50%;
+  background-color: #f6e1ca;
+}
+#flexRightCol {
+  padding: 5px 10px;
+  width: 50%;
+  background-color: #cadff6;
+}
+@keyframes shake {
+  10% {
+    transform: rotate(-1deg);
+  }
+  20% {
+    transform: rotate(1deg);
+  }
+  30% {
+    transform: rotate(-1deg);
+  }
+  40% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  60% {
+    transform: rotate(1deg);
+  }
+  70% {
+    transform: rotate(-1deg);
+  }
+  80% {
+    transform: rotate(1deg);
+  }
+  90% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
 }
 @keyframes monsterZoom {
   1% {
@@ -107,8 +152,11 @@ h4.deathText {
   10% {
     transform: rotate(0deg);
   }
+  90% {
+    transform: scale(10) translateY(100px) translateX(10px);
+  }
   100% {
-    transform: scale(10) translateY(100px) translateX(15px);
+    transform: scale(1);
   }
 }
 @keyframes fadeIn {
@@ -119,35 +167,14 @@ h4.deathText {
     opacity: 1;
   }
 }
-@keyframes shake {
-  10% {
-    transform: rotate(-1deg);
-  }
-  20% {
-    transform: rotate(1deg);
-  }
-  30% {
-    transform: rotate(-1deg);
-  }
-  40% {
-    transform: rotate(1deg);
+@keyframes pulsatingGlow {
+  0% {
+    opacity: 1;
   }
   50% {
-    transform: rotate(-1deg);
-  }
-  60% {
-    transform: rotate(1deg);
-  }
-  70% {
-    transform: rotate(-1deg);
-  }
-  80% {
-    transform: rotate(1deg);
-  }
-  90% {
-    transform: rotate(-1deg);
+    opacity: 0.5;
   }
   100% {
-    transform: rotate(1deg);
+    opacity: 1;
   }
 }
