@@ -21,7 +21,7 @@ h1 {
   transition: color 1s ease;
 }
 h1:hover {
-  color: gold;
+  color: #00ffaa;
   text-shadow: 2 5 5px red;
 }
 main {
@@ -56,6 +56,7 @@ nav img {
   transition: transform 2s ease;
 }
 nav img:hover {
+  opacity: 0.6;
   transform: rotate(360deg);
 }
 #MainLink {
