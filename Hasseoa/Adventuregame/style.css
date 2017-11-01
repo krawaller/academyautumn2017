@@ -11,6 +11,10 @@ img {
   width: 400px;
   height: 300px;
 }
+div#flexbox {
+  display: flex;
+  justify-content: center;
+}
 img:hover {
   transform: rotate(180deg);
   transition: transform 10s ease;
@@ -23,7 +27,7 @@ img:hover {
 #moving:hover {
   background-color: crimson;
   animation-name: loop;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 @keyframes loop {
@@ -37,12 +41,22 @@ img:hover {
     padding-right: 400px;
   }
   80% {
-    padding-right: 550px;
-    padding-bottom: 10px;
+    padding-right: 90%;
   }
   100% {
     padding-right: 10px;
     padding-bottom: 0px;
+  }
+}
+@keyframes loop2 {
+  0% {
+    width: 40px;
+  }
+  50% {
+    width: 60px;
+  }
+  100% {
+    width: 40px;
   }
 }
 h1 {
@@ -80,9 +94,27 @@ p {
   background-color: burlywood;
   font-size: 30;
   padding: 30px;
+  flex-grow: 3;
+  max-width: 500px;
 }
 ul {
   padding-left: 20%;
   padding-bottom: 20px;
   list-style-type: none;
+}
+.alignments {
+  display: flex;
+  justify-content: space-between;
+}
+.testbox {
+  background-color: darkgreen;
+  height: 40px;
+  width: 40px;
+  animation-name: loop2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#flextext {
+  color: red;
+  font-size: 30px;
 }

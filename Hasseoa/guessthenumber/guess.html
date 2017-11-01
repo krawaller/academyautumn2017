@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+	<body>
+		
+		<script>
+			var randomNumber = Math.floor(Math.random()*10)+1;
+			var numberOfGuess = 0;
+			alert("HELLO! - Welcome to the JavaScript guessinggame by Hans");
+			while(numberOfGuess < 3){
+				var answer = prompt("Guess the number 1-10");
+				answer = parseInt(answer);
+				
+				if(answer>0 & answer <11){
+					
+					if(answer == randomNumber){
+					alert("You guessed right, reload page to play again");
+					break;
+					}
+					else{
+					alert("WRONG!");
+					numberOfGuess++;
+					}
+					
+				}
+				else{
+					alert("Falsy input!!!");
+				}
+			
+
+			}
+			
+			if(numberOfGuess == 3){
+				alert("GAME OVER You failed three times, reload to play again");
+			}
+			
+			
+		</script>
+	
+	</body>
+
+</html>
