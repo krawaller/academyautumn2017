@@ -53,7 +53,7 @@ function whatDoesItCost(recept,store) {
     return totalCost;
 }
 function whereIsItTheMostCheepest(recept,stores) {
-    var min =1000;
+    var min =Number.MAX_VALUE;
     var cheapestStore;
     for(var butik in stores){
         
