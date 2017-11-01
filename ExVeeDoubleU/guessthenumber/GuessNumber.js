@@ -1,15 +1,15 @@
 var streak = 0;
 var name = prompt("Enter name")
-var hint = "";
-var maxTries = 3;
-var result = "";
-var lastGuess = -4711;
-var obvious = false;
-var guess = -1;
 alert("Hello " + name + "\nLets Play!\nGuess what number I am thinking of")
 play();
 
 function play(){
+    var hint = "";
+    var maxTries = 3;
+    var result = "";
+    var lastGuess = -4711;
+    var obvious = false;
+    var guess = -1;
     var randomNumber = Math.floor(Math.random()*10) + 1;
     console.log("Hidden number is: " + randomNumber);
     for(var i = 0;i < maxTries;i = i + 1){
@@ -68,25 +68,15 @@ function play(){
         }
         streak = 0;
     }
-    hint = "";
     askReplay();
 }
 function askReplay(){
-    var response = prompt(hint + "\nDo you want to play again?\nEnter yes or no")
-    if(response.toLowerCase() == "yes" || response.toLowerCase() == "y"){
-        hint = "";
-        result = "";
-        obvious = false;
-        guess = "";
-        lastGuess = "";
+    var response = confirm("Do you want to play again?");
+    if(response){
         play();
     }
-    else if(response.toLowerCase() == "no" || response.toLowerCase() == "n" || !response){
+    else{
         alert("Okay :(\nBye Bye!")
         close();
-    }
-    else{
-        hint = "Not a valid answer!"
-        askReplay();
     }
 }
