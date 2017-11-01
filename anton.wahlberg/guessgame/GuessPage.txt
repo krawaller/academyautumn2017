@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Guessgame</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+        
+        var tries = 3;
+        var randomNumber = Math.floor(Math.random()*10)+1;
+
+        var guess = parseInt(prompt("Make a guess between 0 and 11:"));
+        
+        if(guess == randomNumber){
+            alert("Your guess is correct!");
+        }else{
+            alert("You suck at guessing, yeah you totally suck");
+        }
+
+        /*while(guess-randomNumber)
+            if (guess typeof "number" && tries > 0){
+                
+            }else{
+                var guess = parseInt(prompt("Not a number, try again"));
+            }
+            tries--;
+        }*/
+
+
+    </script>
+  </body>
+  </html>

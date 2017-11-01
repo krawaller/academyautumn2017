@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Guessgame</title>
+  </head>
+  <body style="background: rgb(15, 15, 32)">
+    <script type="text/javascript">
+        
+        var tries = 3;
+        var randomNumber = Math.floor(Math.random()*10)+1;
+        replay = "y";
+
+        while(replay == "y"){
+            if(!tries){
+                replay = prompt("You suck at guessing, yeah you totally suck \nThe number was: " + 
+                                                            randomNumber + " \nSuck some more? y/n");
+                randomNumber = Math.floor(Math.random()*10)+1;
+                if(replay != "y"){
+                    break;
+                }else{
+                    tries = 3;
+                }
+            }
+
+            if(tries == 3){
+                var guess = parseInt(prompt("Make a guess between and including 1 and 10 \nYou have " + tries + " tries"));
+            }else{
+                var guess = parseInt(prompt("Your guess is wrong! \nTries left: " + tries));
+            }
+
+            if(guess == randomNumber){
+                if(prompt("Your guess is correct! \nThe number was: " + randomNumber + 
+                                                            " \nPlay more? y/n") == "y"){
+                    tries = 3;
+                }
+            }else{
+                tries--;
+            }
+
+        }
+
+        alert("Have fun doing someting else then!!!");
+
+        
+        /*while(guess-randomNumber)
+            if (guess typeof "number" && tries > 0){
+                
+            }else{
+                var guess = parseInt(prompt("Not a number, try again"));
+            }
+            tries--;
+        }*/
+
+
+    </script>
+  </body>
+  </html>

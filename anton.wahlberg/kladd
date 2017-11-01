@@ -1,0 +1,24 @@
+!"#¤%&/()=?@£$€{[]+?\o}"
+här har vi ett objekt
+
+:O type :A attribute\/value :o children :a attribute\/value o: O:
+
+-<:3 cat
+
++obj type<attribute1-value|attribute2-value||
+  +obj children1<attribute1-value|attribute-value>
+  +obj kid2<prop-bag|prop2-gag||
+    +obj grandkid<regularproperty-value/specialproperty|specialproperty2\
+                      anotherprop-value|yetanother-value> grandkid> kid2>
+;
+link this->
+  value 6 is numberSix
+  value -This is a string- is text
+  value no is canWeUseSpace
+
+  and this ->
+    value -fat- is fat
+    <- to childObjekt
+
+  <- to MyObject
+      

@@ -1,0 +1,63 @@
+// out: ./styles.css, sourcemap: true, compress: true
+
+@forest-green: #003300;
+@text-wheat: wheat;
+@just-black: black;
+
+body {
+  background-color: @forest-green;
+}
+
+header h1{
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: @text-wheat;
+}
+
+h1:hover{
+  transform: scale(1.2,1.2);
+}
+
+
+.image{
+  padding-top: 8px;
+  max-width: 100%;
+  max-height: 700px;
+
+}
+
+main{
+  color: @text-wheat;
+  background- color: @just-black;
+  border-radius: 1em;
+  text-align: center;
+  padding: 10px;
+
+}
+
+main p{
+  -webkit-margin-before: 0em;
+}
+
+.navigation{
+  text-align: center;
+}
+
+.navigation input{
+  background-color: #4CAF3E;
+  border: none;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 0.1em;
+  min-width: 100%;
+  -webkit-transition: 500ms cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+  -webkit-transition:  500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  -moz-transition: 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  -o-transition: 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transition: 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+}
