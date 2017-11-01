@@ -1,16 +1,24 @@
 @basecolor: black;
 
 body {
+  display: flex;
+  justify-content: center;
   background-color: @basecolor;
 }
 
 .wrap {
-  min-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 700px;
+  max-width: 700px;
 }
 
 /* ADD TYPOGRAPHY (FONT) SETTINGS*/
 
 header {
+  display: flex;
+  justify-content: center;
   background-color: black;
 }
 
@@ -18,15 +26,50 @@ header {
   font-family:
 }*/
 
-h1 {
+header> h1 {
+  animation-name: pulsatingGlow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
   margin: 0 0 10px 0;
-  text-align: center;
   font-size: 72pt;
   text-shadow: 0 0 5px green;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
+
+  &> img {
+    // DETTA ÄR LÖSNINGEN TILL PROBLEMET!
+    // JOBBA RUNT ATT ANDRA ELEMENT HAMNAR FRAMFÖR
+    //position: absolute;
+    width: 400px;
+  }
+
+  &> ul {
+
+    &> li {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    &> li > a{ // Option links
+      display: flex;
+      font-size: 14pt;
+      color: black;
+      text-shadow: 0 0 4px red;
+
+      &:hover { // Add attributes on hover
+        display: inline-block;
+        animation-name: shake;
+        animation-duration: 0.2s;
+        animation-iteration-count: infinite;
+      }
+    }
+  }
 }
 
 h4 {
@@ -35,34 +78,82 @@ h4 {
   font-size: 20pt;
   text-shadow: 0 0 3px green;
   &.deathText{
+    animation-name: fadeIn, pulsatingGlow;
+    animation-delay: 8s, 9.5s;
+    animation-duration: 2s, 1s;
+    animation-fill-mode: both, forwards;
+    animation-iteration-count: 1 ,infinite;
     text-shadow: 0 0 3px #ff5a5a;
   }
 }
 
-main > img {
-  width: 500px;
-  display: block;
-  margin: 0 auto; /* 0 = up, down. Auto = left, right */
+.monsterImg {
+  animation-name: monsterZoom;
+  animation-duration: 7s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
-main > ul {
-  display: block;
-  list-style: none;
-  position: relative;
-  float: left;
-
-  left: 50%;
-
-  text-shadow: 0 0 3px black;
+#flexColumns{
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: rgb(201, 201, 201);
 }
 
-main > ul > li {
-  display: block;
-  position: relative;
-  right: 50%;
+#flexLeftCol {
+  padding: 5px 10px;
+  width: 50%;
+  background-color: rgb(246, 225, 202);
+}
 
-  /*text-align: left;
-  padding-left: 30%;*/
-  /*padding-right: 30%;*/
+#flexRightCol {
+  padding: 5px 10px;
+  width: 50%;
+  background-color: rgb(202, 223, 246);
+}
 
+// Sätt transition med WASTED i röd text när monsteranimation är klart
+
+// Link animation
+@keyframes shake {
+  10% {transform: rotate(-1deg);}
+  20% {transform: rotate(1deg);}
+  30% {transform: rotate(-1deg);}
+  40% {transform: rotate(1deg);}
+  50% {transform: rotate(-1deg);}
+  60% {transform: rotate(1deg);}
+  70% {transform: rotate(-1deg);}
+  80% {transform: rotate(1deg);}
+  90% {transform: rotate(-1deg);}
+  100% {transform: rotate(1deg );}
+}
+
+// Monster animation
+@keyframes monsterZoom {
+  1% {transform: rotate(-10deg);}
+  2% {transform: rotate(10deg);}
+  3% {transform: rotate(-10deg);}
+  4% {transform: rotate(10deg);}
+  5% {transform: rotate(-10deg);}
+  6% {transform: rotate(10deg);}
+  7% {transform: rotate(-10deg);}
+  8% {transform: rotate(10deg);}
+  9% {transform: rotate(-5deg);}
+  10%{transform: rotate(0deg);}
+  90% {transform: scale(10) translateY(100px) translateX(10px);}
+  100%{transform: scale(1);}
+}
+
+// FadeIn
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes pulsatingGlow {
+  0% {opacity: 1;}
+  50% {opacity:0.5;}
+  100% {opacity: 1}
 }
