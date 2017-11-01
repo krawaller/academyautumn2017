@@ -10,13 +10,34 @@
   src: url('https://fonts.googleapis.com/css?family=Pacifico');
 }
 
+header {
+  display: block;
+  border-bottom: 3px solid gray;
+}
+
 body {
   background-color: @bgcolor;
   font-family: fantasy;
 }
 
+@keyframes slidingtitle {
+  0% {
+    transform: translateX(0px);
+  }
+  33% {
+    transform: translateX(-25%);
+  }
+  67% {
+    transform: translateX(25%);
+  }
+}
+
 h1 {
   text-align: center;
+  animation-name: slidingtitle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
   color: pink;
   text-transform: uppercase;
   font-family: 'Pacifico', cursive;
@@ -42,9 +63,11 @@ img {
   padding: 5px;
   margin-top: 40px;
   margin-bottom: 40px;
+  transition: transform 2s ease;
 
   &:hover {
     outline: yellow dotted 20px;
+    transform: rotate(180deg);
   }
 }
 
