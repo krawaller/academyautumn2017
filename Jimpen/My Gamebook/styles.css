@@ -1,26 +1,55 @@
 body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTMvp-Suq-ZIdDfjNmxGHMc8QUsWYD9IkaO34Dr0g6LqJYS891);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  font-family: 'Niconne', cursive;
   margin: auto;
   position: relative;
   max-width: fit-content;
-  font-family: 'Niconne', cursive;
 }
 img {
   max-width: 500px;
   max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.5s ease-in;
+}
+img:hover {
+  transform: Scale(1, 0);
 }
 h1 {
   font-size: 40px;
   max-width: -webkit-fill-available;
   color: red;
+  transition: transform 0.5s;
+  text-shadow: 4px 2px 2px black;
+}
+h1:hover {
+  transform: scale(1, 2);
 }
 p {
   width: 500px;
 }
 ul {
   padding-left: 0;
+  display: flex;
+  flex-direction: row;
+}
+li:hover {
+  transform: scale(1, 1.5);
 }
 li {
   list-style-type: none;
   padding-left: 0px;
   padding-right: 0px;
+  transition: transform 1s ease;
+  flex-grow: 1;
+  text-align: center;
+}
+a {
+  color: gold;
 }
