@@ -9,10 +9,15 @@ h1 {
   font-size: 48pt;
   margin-bottom: 0px;
 }
+h1:hover {
+    transform: rotate(2deg);
+  transition: transform 2s ease;
+}
 img {
   max-height: 300px;
   max-width: 500px;
   border: 1px solid maroon;
+
 }
 a:link {
   font-size: 150%;
@@ -24,6 +29,7 @@ a:visited {
 }
 a:hover {
   color: red;
+  transition:color 2s linear;
 }
 p {
   font-size: 12pt;
@@ -40,7 +46,8 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 500pt;
-  width: 400pt;
+  height: 680px;
+  width: 530px;
   border: 1px solid maroon;
 }
+
