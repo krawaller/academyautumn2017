@@ -18,28 +18,13 @@ var chickensoup = {
 	corn: 3	
 };
 
-//boutiques
-
-var ICA ={
-	potato: 2,
-	onion: 1,
-	corn: 4,
-	cow: 30,
-	chicken: 15,
-	leek: 3,
+var stores ={
+	ICA:{potato: 2,	onion: 1,corn: 4,cow: 20,chicken: 15,leek: 3,},
+	Lidl:{potato: 1,onion: 1,corn: 5,cow: 28,chicken: 12,leek: 4,}	
 }
 
-var Lidl = {
-	potato: 1,
-	onion: 1,
-	corn: 5,
-	cow: 28,
-	chicken: 12,
-	leek: 4,	
-}
+//funcions
 
-//funcion
-console.log(supersoup.cow);
 
 function priceCalculator(recipe,store){
 	var price = 0;
@@ -49,14 +34,30 @@ function priceCalculator(recipe,store){
 	return price;
 }
 
-console.log("supersoup costs "+priceCalculator(supersoup,ICA)+" at ICA");
-console.log("cowsoup costs "+priceCalculator(cowsoup,ICA)+" at ICA");
-console.log("chickensoup costs "+priceCalculator(chickensoup,ICA)+" at ICA");
-console.log("supersoup costs "+priceCalculator(supersoup,Lidl)+" at Lidl");
-console.log("cowsoup costs "+priceCalculator(cowsoup,Lidl)+" at Lidl");
-console.log("chickensoup costs "+priceCalculator(chickensoup,Lidl)+" at Lidl");
+function findCheapestStore(recipe, stores){
+	var lowestPrice = Infinity;
+	var cheapestStore;
+	
+	for(var store in stores){
+		var price = priceCalculator(recipe,stores[store]);		
+		if(price < lowestPrice){
+			lowestPrice = price;
+			cheapestStore = store;
+		}
+	}
+	return cheapestStore;	
+}
+
+console.log("supersoup costs "+priceCalculator(supersoup,stores.ICA)+" at ICA");
+console.log("cowsoup costs "+priceCalculator(cowsoup,stores.ICA)+" at ICA");
+console.log("chickensoup costs "+priceCalculator(chickensoup,stores.ICA)+" at ICA");
+console.log("supersoup costs "+priceCalculator(supersoup,stores.Lidl)+" at Lidl");
+console.log("cowsoup costs "+priceCalculator(cowsoup,stores.Lidl)+" at Lidl");
+console.log("chickensoup costs "+priceCalculator(chickensoup,stores.Lidl)+" at Lidl");
+console.log();
+console.log("Shop for supersoup at "+findCheapestStore(supersoup,stores));
+console.log("Shop for cowsoup at "+findCheapestStore(cowsoup,stores));
+console.log("Shop for chickensoup at "+findCheapestStore(chickensoup,stores));
 
 
 
-//console.log("Supersoup costs "+costOfRecipe(supersoup,ICA));
-//console.log("My famous stew costs "+costOfRecipe(stew,ICA));
