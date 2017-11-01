@@ -1,0 +1,24 @@
+<html>
+    <head><title>Number Guessing Game</title></head>
+    <body>
+        <script type="text/javascript">
+            var randomNumber = Math.floor(Math.random() * 10) + 1;
+            var guess;
+            var counter = 0
+            var attempt = 1;
+            do {
+                guess = parseInt(prompt("Attempt " + attempt + " - Enter your guess: "));
+                if (guess == randomNumber) {
+                    alert("Guess: " + guess + " Answer: " + randomNumber + " Attempt: " + attempt);
+                    alert("You got it!");
+                    break;
+                } else {
+                    alert("Guess: " + guess + " Answer: " + randomNumber + " Attempt: " + attempt);
+                    alert("Wrong!");
+                }
+                counter++
+                attempt++
+            } while (counter < 3);
+        </script>
+    </body>
+    </html>
