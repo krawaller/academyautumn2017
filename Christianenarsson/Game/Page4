@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>My first game</title>
+</head>
+<body>
+	<div class="box">
+	<header>
+		<h1>The Mansion</h1>
+	</header>
+	<main>
+	<h2>Dining Room</h2>
+	
+	 <img src=https://i0.wp.com/www.uncannycomicquest.com/wp-content/uploads/2017/02/Resident-Evil-Mia-Zombie.jpg class:"scary" title="Dining room">
+	 <p>You're standing in a dining room. There is a pool of blood on the floor and a door to the right.<br>
+	Hope this is not one one of your friends' blood!</p>
+	 <ul>
+	 <li><div><a href="Page4.html"> Go through the door</a></div></li>
+	 <li><div><a href="Page3.html"> Examine the pool of blood</a></div></li>
+	</ul>
+	</main>
+</div>
+
+
+</body>
+</html>
