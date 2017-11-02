@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess again! :D</title>
+</head>
+<body>
+        <style >
+                .hidden {
+                  display: none;
+                }
+          
+                .show {
+                  visibility: visible;
+                }
+            </style>
+  <!-- Feedback -->
+  <div id="feedback">
+      <span id="winner" class="hidden">You win!</span>
+      <span id="loser" class="hidden">You lose!</span>
+      <p>
+          <div>You have guessed</div>
+          <span id="guess1">X</span>
+          <span id="guess2">X</span>
+          <span id="guess3">X</span>
+      </p>
+  </div>
+
+  <!-- Enter guess -->
+  <div id="enterguess" >
+
+    <div id="buttons">
+      <button id="button1" value="1">1</button>
+      <button id="button2" value="2">2</button>
+      <button id="button3" value="3">3</button>
+      <button id="button4" value="4">4</button>
+      <button id="button5" value="5">5</button>
+      <button id="button6" value="6">6</button>
+      <button id="button7" value="7">7</button>
+      <button id="button8" value="8">8</button> 
+      <button id="button9" value="9">9</button>
+      <button id="button10" value="10">10</button>
+      
+    </div>
+  </div>
+
+  <!-- Play again -->
+  <div id="playagain" class="hidden">
+      <button id="playagainbutton">Play again?</button>
+  </div>
+
+  <script src="code.js"></script>
+</body>
+</html>
+
+ 
