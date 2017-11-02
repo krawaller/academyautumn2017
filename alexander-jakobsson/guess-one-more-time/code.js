@@ -102,5 +102,4 @@ buttonList.button7.addEventListener("click", pressButton7);
 buttonList.button8.addEventListener("click", pressButton8);
 buttonList.button9.addEventListener("click", pressButton9);
 buttonList.button10.addEventListener("click", pressButton10);
-//submitButton.addEventListener("click", enterGuess);
 playAgainButton.addEventListener("click", playAgain);
